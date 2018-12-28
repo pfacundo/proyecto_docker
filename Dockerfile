@@ -10,4 +10,5 @@ CMD  ["nginx","-g","daemon off;"]
 
 FROM facundop/nginx-light
 
-ENTRYPOINT "/bin/bash"
+CMD  ["nginx","-g","daemon off;"]
+
