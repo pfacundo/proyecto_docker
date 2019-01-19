@@ -7,7 +7,3 @@ EXPOSE 80
 COPY web/index.html /var/www/html/
 
 CMD  ["nginx","-g","daemon off;"]
-
-FROM facundop/nginx-light
-
-ENTRYPOINT "/bin/bash"
